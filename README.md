@@ -1,38 +1,29 @@
-# sv
+# Svelther
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A simple weather showcase app built with [Svelte](https://svelte.dev/) and [SvelteKit](https://kit.svelte.dev/).  
+This project demonstrates how to fetch and display weather information based on the user's current location.
 
-## Creating a project
+![Built with Svelte](https://img.shields.io/badge/Built%20with-Svelte-%23FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+![Powered by Vite](https://img.shields.io/badge/Powered%20by-Vite-%23646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Node >= 20](https://img.shields.io/badge/Node-20+-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![NPM >= 10](https://img.shields.io/badge/NPM-10+-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
 
-```bash
-# create a new project in the current directory
-npx sv create
+- Detects user location (with permission)
+- Fetches current weather for the detected location
+- Clean, minimal UI built with Svelte and SvelteKit
 
-# create a new project in my-app
-npx sv create my-app
-```
+## How it Works
 
-## Developing
+- Uses the browser’s Geolocation API to get the user's latitude and longitude.
+- Fetches weather data from a public API (you may need to configure your API key/provider in the code).
+- Displays the current weather for the user's location.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Technologies Used
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- [Svelte](https://svelte.dev/)
+- [SvelteKit](https://kit.svelte.dev/)
+- [Vite](https://vitejs.dev/)
+- JavaScript
+- HTML
