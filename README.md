@@ -1,6 +1,6 @@
 <picture>
-  <source srcset="static/svelther-logo_dark.png" media="(prefers-color-scheme: dark)">
-  <img src="static/svelther-logo_light.png" alt="Svelther Logo" width="300">
+  <source srcset="static/svelther-logo_light.png" media="(prefers-color-scheme: dark)">
+  <img src="static/svelther-logo_dark.png" alt="Svelther Logo" width="300">
 </picture>
 
 
