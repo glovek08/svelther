@@ -1,4 +1,8 @@
-# Svelther
+<picture>
+  <source srcset="static/svelther-logo_dark.png" media="(prefers-color-scheme: dark)">
+  <img src="static/svelther-logo_light.png" alt="Svelther Logo" width="300">
+</picture>
+
 
 A simple weather showcase app built with [Svelte](https://svelte.dev/) and [SvelteKit](https://kit.svelte.dev/).  
 This project demonstrates how to fetch and display weather information based on the user's current location.
