@@ -1,9 +1,23 @@
+<script>
+	const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+	const updateTheme = (e) => {
+		if (e.matches) {
+			document.documentElement.classList.add('dark');
+		} else {
+			document.documentElement.classList.remove('dark');
+		}
+	}
+	updateTheme(prefersDark);
+	prefersDark.addEventListener('change', updateTheme);
+</script>
+
 <!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.svg" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Svelther</title>
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">

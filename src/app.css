@@ -1,0 +1,25 @@
+:root {
+  --background:  #d6eaf8;
+  --font-primary: #131515;
+  --anchor-unvisit: rgb(0, 54, 116);
+  --anchor-visit: rgb(97, 1, 97);
+}
+:root.dark {
+  --background: #292b2c;
+  --font-primary: #e2eeee;
+  --anchor-unvisit: rgb(85, 181, 211);
+  --anchor-visit: rgb(253, 172, 253);
+}
+
+body {
+  background: var(--background);
+  color: var(--font-primary);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a {
+  color: var(--anchor-unvisit);
+}
+a:visited {
+  color: var(--anchor-visit);
+}
+
