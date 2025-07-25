@@ -1,7 +1,7 @@
 <script>
   import '../app.css';
   import Footer from '$lib/components/Footer.svelte';
-  import Header from '$lib/components/Navbar.svelte';
+  import Header from '$lib/components/Header.svelte';
 </script>
 
 <Header />
@@ -11,3 +11,7 @@
 </main>
 
 <Footer />
+
+<style>
+
+</style>
