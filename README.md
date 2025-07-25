@@ -31,3 +31,7 @@ This project demonstrates how to fetch and display weather information based on 
 - [Vite](https://vitejs.dev/)
 - JavaScript
 - HTML
+
+## License
+
+This project is licensed under the Mozilla Public License 2.0 (MPL-2.0).
