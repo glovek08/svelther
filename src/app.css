@@ -3,6 +3,7 @@
   --font-primary: #131515;
   --anchor-unvisit: rgb(0, 54, 116);
   --anchor-visit: rgb(97, 1, 97);
+  --accent: red;
 }
 
 :root.dark {
@@ -10,6 +11,29 @@
   --font-primary: #e2eeee;
   --anchor-unvisit: rgb(85, 181, 211);
   --anchor-visit: rgb(253, 172, 253);
+  --accent: rgb(86, 148, 240);
+}
+
+*:focus-visible {
+  outline: 3px solid var(--accent);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block
+}
+
+a {
+  color: var(--anchor-unvisit);
+}
+
+a:visited {
+  color: var(--anchor-visit);
 }
 
 body {
@@ -26,15 +50,4 @@ body {
   flex-direction: column;
 }
 
-a {
-  color: var(--anchor-unvisit);
-}
-
-a:visited {
-  color: var(--anchor-visit);
-}
-
-main {
-
-}
-
+main {}
