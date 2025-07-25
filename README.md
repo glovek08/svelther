@@ -14,14 +14,14 @@ This project demonstrates how to fetch and display weather information based on 
 
 ## Features
 
-- Detects user location (with permission)
-- Fetches current weather for the detected location
-- Clean, minimal UI built with Svelte and SvelteKit
+- Detects user location (with permission).
+- Fetches current weather for the detected location.
+- Clean, minimal UI built with Svelte.
 
 ## How it Works
 
 - Uses the browser’s Geolocation API to get the user's latitude and longitude.
-- Fetches weather data from a public API (you may need to configure your API key/provider in the code).
+- Fetches weather data from ![Open-Meteo](https://www.open-meteo.com) API
 - Displays the current weather for the user's location.
 
 ## Technologies Used
@@ -30,4 +30,4 @@ This project demonstrates how to fetch and display weather information based on 
 - [SvelteKit](https://kit.svelte.dev/)
 - [Vite](https://vitejs.dev/)
 - JavaScript
-- HTML
+- [Node.js](https://nodejs.org)
